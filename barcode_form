@@ -45,7 +45,7 @@ def transform_matrix(D):
 # Create a randon matrix of size n x m
 n = 7
 m = 5
-D = np.random.choice([0, 1, -1], size = (n, n))
+D = np.random.choice([0, 1, -1], size = (n, m))
 
 print(f'Original matrix \n {D} \n')
 print(f'Transformed matrix \n {transform_matrix(D)}')
